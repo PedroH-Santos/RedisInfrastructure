@@ -1,0 +1,224 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|c:\\users\\major\\projetos\\redisinfrastructure\\cacheapi\\cacheapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|solutionrelative:cacheapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|c:\\users\\major\\projetos\\redisinfrastructure\\cacheapi\\cacheapi\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|solutionrelative:cacheapi\\services\\rediscacheservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|c:\\users\\major\\projetos\\redisinfrastructure\\cacheapi\\cacheapi\\cacheapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|solutionrelative:cacheapi\\cacheapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|c:\\users\\major\\projetos\\redisinfrastructure\\cacheapi\\cacheapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|solutionrelative:cacheapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|c:\\users\\major\\projetos\\redisinfrastructure\\cacheapi\\cacheapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|solutionrelative:cacheapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|c:\\users\\major\\projetos\\redisinfrastructure\\cacheapi\\cacheapi\\services\\strategies\\writearoundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|solutionrelative:cacheapi\\services\\strategies\\writearoundservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|c:\\users\\major\\projetos\\redisinfrastructure\\cacheapi\\cacheapi\\controller\\cacheasidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|solutionrelative:cacheapi\\controller\\cacheasidecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|c:\\users\\major\\projetos\\redisinfrastructure\\cacheapi\\cacheapi\\controller\\writearoundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|solutionrelative:cacheapi\\controller\\writearoundcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|c:\\users\\major\\projetos\\redisinfrastructure\\cacheapi\\cacheapi\\controller\\writebehindcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|solutionrelative:cacheapi\\controller\\writebehindcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|c:\\users\\major\\projetos\\redisinfrastructure\\cacheapi\\cacheapi\\services\\strategies\\writebehindservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|solutionrelative:cacheapi\\services\\strategies\\writebehindservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|c:\\users\\major\\projetos\\redisinfrastructure\\cacheapi\\cacheapi\\services\\strategies\\cacheasideservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|solutionrelative:cacheapi\\services\\strategies\\cacheasideservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|c:\\users\\major\\projetos\\redisinfrastructure\\cacheapi\\cacheapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{681B473F-6481-FA2A-F220-EBC2EBA0FC6E}|CacheApi\\CacheApi.csproj|solutionrelative:cacheapi\\context\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RedisCacheService.cs",
+              "DocumentMoniker": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Services\\RedisCacheService.cs",
+              "RelativeDocumentMoniker": "CacheApi\\Services\\RedisCacheService.cs",
+              "ToolTip": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Services\\RedisCacheService.cs",
+              "RelativeToolTip": "CacheApi\\Services\\RedisCacheService.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwDMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:35:42.951Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CacheApi.csproj",
+              "DocumentMoniker": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\CacheApi.csproj",
+              "RelativeDocumentMoniker": "CacheApi\\CacheApi.csproj",
+              "ToolTip": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\CacheApi.csproj",
+              "RelativeToolTip": "CacheApi\\CacheApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-06-22T16:34:57.481Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WriteBehindController.cs",
+              "DocumentMoniker": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Controller\\WriteBehindController.cs",
+              "RelativeDocumentMoniker": "CacheApi\\Controller\\WriteBehindController.cs",
+              "ToolTip": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Controller\\WriteBehindController.cs",
+              "RelativeToolTip": "CacheApi\\Controller\\WriteBehindController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:34:57.504Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "WriteAroundController.cs",
+              "DocumentMoniker": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Controller\\WriteAroundController.cs",
+              "RelativeDocumentMoniker": "CacheApi\\Controller\\WriteAroundController.cs",
+              "ToolTip": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Controller\\WriteAroundController.cs",
+              "RelativeToolTip": "CacheApi\\Controller\\WriteAroundController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:34:57.512Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CacheAsideController.cs",
+              "DocumentMoniker": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Controller\\CacheAsideController.cs",
+              "RelativeDocumentMoniker": "CacheApi\\Controller\\CacheAsideController.cs",
+              "ToolTip": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Controller\\CacheAsideController.cs",
+              "RelativeToolTip": "CacheApi\\Controller\\CacheAsideController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:34:57.524Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Program.cs",
+              "RelativeDocumentMoniker": "CacheApi\\Program.cs",
+              "ToolTip": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Program.cs",
+              "RelativeToolTip": "CacheApi\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAawBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:34:57.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\appsettings.json",
+              "RelativeDocumentMoniker": "CacheApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\appsettings.json",
+              "RelativeToolTip": "CacheApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-22T16:34:57.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CacheApi\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\appsettings.Development.json",
+              "RelativeToolTip": "CacheApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-06-22T16:34:57.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WriteBehindService.cs",
+              "DocumentMoniker": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Services\\Strategies\\WriteBehindService.cs",
+              "RelativeDocumentMoniker": "CacheApi\\Services\\Strategies\\WriteBehindService.cs",
+              "ToolTip": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Services\\Strategies\\WriteBehindService.cs",
+              "RelativeToolTip": "CacheApi\\Services\\Strategies\\WriteBehindService.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAwFgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:34:57.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "WriteAroundService.cs",
+              "DocumentMoniker": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Services\\Strategies\\WriteAroundService.cs",
+              "RelativeDocumentMoniker": "CacheApi\\Services\\Strategies\\WriteAroundService.cs",
+              "ToolTip": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Services\\Strategies\\WriteAroundService.cs",
+              "RelativeToolTip": "CacheApi\\Services\\Strategies\\WriteAroundService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:34:57.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CacheAsideService.cs",
+              "DocumentMoniker": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Services\\Strategies\\CacheAsideService.cs",
+              "RelativeDocumentMoniker": "CacheApi\\Services\\Strategies\\CacheAsideService.cs",
+              "ToolTip": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Services\\Strategies\\CacheAsideService.cs",
+              "RelativeToolTip": "CacheApi\\Services\\Strategies\\CacheAsideService.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAkwBIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:34:57.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Context\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "CacheApi\\Context\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\Context\\AppDbContext.cs",
+              "RelativeToolTip": "CacheApi\\Context\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-22T16:34:57.56Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

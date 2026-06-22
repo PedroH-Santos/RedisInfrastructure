@@ -1,21 +1,69 @@
 services:
+  # api:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile
+  #   container_name: rediscachelab-api
+  #   ports:
+  #     - "8080:8080"
+  #   environment:
+  #     - ConnectionStrings__Redis=redis:6379
+  #     - ConnectionStrings__MySql=Server=mysql;Port=3307;Database=rediscachelab;User=root;Password=root;
+  #   depends_on:
+  #     redis:
+  #       condition: service_healthy
+  #     mysql:
+  #       condition: service_healthy
+  #   networks:
+  #     - cachelab-net
+
+  mysql:
+    image: mysql:8.0
+    container_name: rediscachelab-mysql
+    environment:
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_DATABASE=rediscachelab
+    ports:
+      - "3307:3307"         # exposta para o Workbench conectar direto
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    volumes:
+      - mysql-data:/var/lib/mysql
+    networks:
+      - cachelab-net
+
   redis:
-    build: .
-    container_name: redis-local
+    image: redis:7-alpine
+    container_name: rediscachelab-redis
     ports:
       - "6379:6379"
-    volumes:
-      - redis-data:/data
-    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    networks:
+      - cachelab-net
 
-  redis-insight:
-    image: redis/redisinsight:latest
-    container_name: redis-insight
+  redis-commander:
+    image: rediscommander/redis-commander:latest
+    container_name: rediscachelab-ui
+    environment:
+      - REDIS_HOSTS=local:redis:6379
     ports:
-      - "5540:5540"
+      - "8081:8081"
     depends_on:
       - redis
-    restart: unless-stopped
+    networks:
+      - cachelab-net
+
+networks:
+  cachelab-net:
+    driver: bridge
 
 volumes:
-  redis-data:
+  api-data:
+  mysql-data:

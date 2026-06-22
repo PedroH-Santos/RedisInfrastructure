@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "dgSpecHash": "Nd9hIg3os9g=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\CacheApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\major\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.3.11\\microsoft.aspnetcore.mvc.core.2.3.11.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\2.1.0\\microsoft.dotnet.platformabstractions.2.1.0.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.9\\microsoft.entityframeworkcore.10.0.9.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.9\\microsoft.entityframeworkcore.abstractions.10.0.9.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.9\\microsoft.entityframeworkcore.analyzers.10.0.9.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\9.0.0\\microsoft.entityframeworkcore.relational.9.0.0.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.1.0\\microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\mysqlconnector\\2.4.0\\mysqlconnector.2.4.0.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\pomelo.entityframeworkcore.mysql\\9.0.0\\pomelo.entityframeworkcore.mysql.9.0.0.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\respite\\3.0.0\\respite.3.0.0.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\stackexchange.redis\\3.0.0\\stackexchange.redis.3.0.0.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\swashbuckle.aspnetcore\\10.2.3\\swashbuckle.aspnetcore.10.2.3.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\10.2.3\\swashbuckle.aspnetcore.annotations.10.2.3.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.2.3\\swashbuckle.aspnetcore.swagger.10.2.3.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.2.3\\swashbuckle.aspnetcore.swaggergen.10.2.3.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.2.3\\swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512",
+    "C:\\Users\\major\\.nuget\\packages\\system.io.hashing\\10.0.5\\system.io.hashing.10.0.5.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "message": "PackageReference Microsoft.AspNetCore.Mvc.Core will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "projectPath": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\CacheApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\CacheApi.csproj",
+      "libraryId": "Microsoft.AspNetCore.Mvc.Core",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    },
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "message": "Package 'Newtonsoft.Json' 9.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-5crp-9r3c-p9vr",
+      "projectPath": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\CacheApi.csproj",
+      "warningLevel": 1,
+      "filePath": "C:\\Users\\major\\Projetos\\RedisInfrastructure\\CacheApi\\CacheApi\\CacheApi.csproj",
+      "libraryId": "Newtonsoft.Json",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}

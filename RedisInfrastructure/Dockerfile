@@ -1,18 +1,30 @@
-FROM redis:7-alpine
+# # Estágio de build com o SDK do .NET 10
+# FROM mcr.microsoft.com/dotnet/sdk:10.0 AS build
+# WORKDIR /src
 
-RUN mkdir -p /usr/local/etc/redis
+# # Copia o arquivo .csproj respeitando a estrutura de pastas e restaura as dependências
+# COPY CacheApi/CacheApi.csproj ./CacheApi/
+# RUN dotnet restore ./CacheApi/CacheApi.csproj
 
-RUN echo "bind 0.0.0.0" > /usr/local/etc/redis/redis.conf && \
-    echo "protected-mode no" >> /usr/local/etc/redis/redis.conf && \
-    echo "port 6379" >> /usr/local/etc/redis/redis.conf && \
-    echo "appendonly yes" >> /usr/local/etc/redis/redis.conf && \
-    echo "appendfilename appendonly.aof" >> /usr/local/etc/redis/redis.conf && \
-    echo "save 900 1" >> /usr/local/etc/redis/redis.conf && \
-    echo "save 300 10" >> /usr/local/etc/redis/redis.conf && \
-    echo "loglevel notice" >> /usr/local/etc/redis/redis.conf && \
-    echo "maxmemory 256mb" >> /usr/local/etc/redis/redis.conf && \
-    echo "maxmemory-policy allkeys-lru" >> /usr/local/etc/redis/redis.conf
+# # Copia todo o código fonte para o container
+# COPY . .
+# WORKDIR /src/CacheApi
 
-EXPOSE 6379
+# # Publica os binários compilados em modo Release
+# RUN dotnet publish -c Release -o /app/publish
 
-CMD ["redis-server", "/usr/local/etc/redis/redis.conf"]
+# # Estágio final utilizando o runtime do .NET 10
+# FROM mcr.microsoft.com/dotnet/aspnet:10.0 AS final
+# WORKDIR /app
+# RUN mkdir -p /app/data
+
+# # Copia o resultado do publish para o container final
+# COPY --from=build /app/publish .
+
+# # Configurações de ambiente do ASP.NET Core
+# ENV ASPNETCORE_URLS=http://+:8080
+# ENV ASPNETCORE_ENVIRONMENT=Production
+# EXPOSE 8080
+
+# # Ponto de entrada corrigido com o nome correto da DLL
+# ENTRYPOINT ["dotnet", "CacheApi.dll"]
