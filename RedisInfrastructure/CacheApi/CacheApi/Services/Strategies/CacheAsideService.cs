@@ -15,7 +15,7 @@ public class CacheAsideService
     private readonly IProductRepository _repository;
     private readonly ICacheService _cache;
 
-    private static readonly TimeSpan DefaultTtl = TimeSpan.FromMinutes(2);
+    private static readonly TimeSpan DefaultTtl = TimeSpan.FromMinutes(30);
     public const string KeyPrefix = "cache-aside:product:";
     public const string AllKey = "cache-aside:products:all";
 

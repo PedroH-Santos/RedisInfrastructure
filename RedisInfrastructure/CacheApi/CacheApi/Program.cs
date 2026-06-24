@@ -28,7 +28,7 @@ builder.Services.AddScoped<ICacheService, RedisCacheService>();
 // ---- Um serviço por estratégia de cache ----
 builder.Services.AddScoped<CacheAsideService>();
 builder.Services.AddScoped<WriteBehindService>();
-builder.Services.AddScoped<WriteAroundService>();
+builder.Services.AddScoped<ReadWriteThroughService>();
 
 // ---- Fila + worker para Write-Behind ----
 builder.Services.AddSingleton<IWriteBehindQueue, WriteBehindQueue>();

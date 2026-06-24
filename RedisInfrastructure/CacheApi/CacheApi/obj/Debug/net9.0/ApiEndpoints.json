@@ -1,0 +1,416 @@
+[
+  {
+    "ContainingType": "CacheApi.Controller.CacheAsideController",
+    "Method": "GetAll",
+    "RelativePath": "api/cache-aside/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RedisCacheLab.Models.Product, CacheApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CacheApi.Controller.CacheAsideController",
+    "Method": "Create",
+    "RelativePath": "api/cache-aside/products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "RedisCacheLab.Models.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RedisCacheLab.Models.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CacheApi.Controller.CacheAsideController",
+    "Method": "GetById",
+    "RelativePath": "api/cache-aside/products/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RedisCacheLab.Models.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CacheApi.Controller.CacheAsideController",
+    "Method": "Update",
+    "RelativePath": "api/cache-aside/products/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "RedisCacheLab.Models.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RedisCacheLab.Models.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CacheApi.Controller.CacheAsideController",
+    "Method": "Delete",
+    "RelativePath": "api/cache-aside/products/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CacheApi.Controller.CacheAsideController",
+    "Method": "FlushCache",
+    "RelativePath": "api/cache-aside/products/cache-flush",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CacheApi.Controller.CacheAsideController",
+    "Method": "CacheStatus",
+    "RelativePath": "api/cache-aside/products/cache-status/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RedisCacheLab.Controllers.ReadWriteThroughController",
+    "Method": "GetAll",
+    "RelativePath": "api/rw-through/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RedisCacheLab.Models.Product, CacheApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "2. Read-Through \u002B Write-Through"
+    ]
+  },
+  {
+    "ContainingType": "RedisCacheLab.Controllers.ReadWriteThroughController",
+    "Method": "Create",
+    "RelativePath": "api/rw-through/products",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "RedisCacheLab.Models.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RedisCacheLab.Models.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "2. Read-Through \u002B Write-Through"
+    ]
+  },
+  {
+    "ContainingType": "RedisCacheLab.Controllers.ReadWriteThroughController",
+    "Method": "GetById",
+    "RelativePath": "api/rw-through/products/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RedisCacheLab.Models.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "2. Read-Through \u002B Write-Through"
+    ]
+  },
+  {
+    "ContainingType": "RedisCacheLab.Controllers.ReadWriteThroughController",
+    "Method": "Update",
+    "RelativePath": "api/rw-through/products/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "RedisCacheLab.Models.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RedisCacheLab.Models.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ],
+    "Tags": [
+      "2. Read-Through \u002B Write-Through"
+    ]
+  },
+  {
+    "ContainingType": "RedisCacheLab.Controllers.ReadWriteThroughController",
+    "Method": "Delete",
+    "RelativePath": "api/rw-through/products/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "2. Read-Through \u002B Write-Through"
+    ]
+  },
+  {
+    "ContainingType": "RedisCacheLab.Controllers.ReadWriteThroughController",
+    "Method": "FlushCache",
+    "RelativePath": "api/rw-through/products/cache-flush",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [],
+    "Tags": [
+      "2. Read-Through \u002B Write-Through"
+    ]
+  },
+  {
+    "ContainingType": "RedisCacheLab.Controllers.ReadWriteThroughController",
+    "Method": "CacheStatus",
+    "RelativePath": "api/rw-through/products/cache-status/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [],
+    "Tags": [
+      "2. Read-Through \u002B Write-Through"
+    ]
+  },
+  {
+    "ContainingType": "CacheApi.Controller.WriteBehindController",
+    "Method": "GetAll",
+    "RelativePath": "api/write-behind/products",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.List\u00601[[RedisCacheLab.Models.Product, CacheApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CacheApi.Controller.WriteBehindController",
+    "Method": "GetById",
+    "RelativePath": "api/write-behind/products/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RedisCacheLab.Models.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CacheApi.Controller.WriteBehindController",
+    "Method": "Update",
+    "RelativePath": "api/write-behind/products/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "RedisCacheLab.Models.ProductDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "RedisCacheLab.Models.Product",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CacheApi.Controller.WriteBehindController",
+    "Method": "FlushCache",
+    "RelativePath": "api/write-behind/products/cache-flush",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CacheApi.Controller.WriteBehindController",
+    "Method": "CacheStatus",
+    "RelativePath": "api/write-behind/products/cache-status/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

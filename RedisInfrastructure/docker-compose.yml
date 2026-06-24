@@ -24,7 +24,7 @@ services:
       - MYSQL_ROOT_PASSWORD=root
       - MYSQL_DATABASE=rediscachelab
     ports:
-      - "3307:3307"         # exposta para o Workbench conectar direto
+      - "3307:3306"           # exposta para o Workbench conectar direto
     healthcheck:
       test: ["CMD", "mysqladmin", "ping", "-h", "localhost", "-uroot", "-proot"]
       interval: 5s
@@ -50,11 +50,23 @@ services:
 
   redis-commander:
     image: rediscommander/redis-commander:latest
-    container_name: rediscachelab-ui
+    container_name: rediscachelab-commander
     environment:
       - REDIS_HOSTS=local:redis:6379
     ports:
-      - "8081:8081"
+      - "8081:8081"          
+    depends_on:
+      - redis
+    networks:
+      - cachelab-net
+
+  redis-insight:
+    image: redis/redisinsight:latest
+    container_name: rediscachelab-insight
+    ports:
+      - "5540:5540"          
+    volumes:
+      - redisinsight-data:/data
     depends_on:
       - redis
     networks:
@@ -67,3 +79,4 @@ networks:
 volumes:
   api-data:
   mysql-data:
+  redisinsight-data:
